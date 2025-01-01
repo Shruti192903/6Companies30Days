@@ -36,3 +36,8 @@ public:
  *    winner = (solve(totalfrnds - 1, k) + k) % totalfrnds
  * 4. In the main function, call this recursive function and adjust for zero-based indexing by adding `1`.
  */
+/*
+ * Complexity Analysis:
+ * - Time Complexity: O(n) - The recursive function will be called n times until only one friend remains.
+ * - Space Complexity: O(n) - The recursion stack can go as deep as n, leading to linear space usage.
+ */
